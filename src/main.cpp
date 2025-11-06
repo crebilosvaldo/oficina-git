@@ -13,7 +13,7 @@ int main() {
     string meuContato = "github.com/rosbife";
     string meuHobby = "Cozinhar Pastel";
 
-    string minhaCor = Color::Red;
+    string minhaCor = Color::Yellow;
 
     ProfileGreeter Greeter(meuNome, meuTitulo, meuContato, minhaArte, minhaCor, meuHobby);
     
