@@ -2,11 +2,11 @@
 
 int main() {
     
-    string minhaArte = R"GREETER(
+    string minhaArte = R"(
        /\_/\  
       ( o.o ) 
        > ^ <
-    )GREETER";
+    )";
     
     string meuNome = "Foobar";
     string meuTitulo = "Foobar Developer";
@@ -19,6 +19,6 @@ int main() {
     
     Greeter.clear();
     Greeter.print();
-    
+    getchar();    
     return 0;
 }
