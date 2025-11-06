@@ -1,0 +1,16 @@
+# Arquivos de compilação do C/C++
+*.o
+*.obj
+
+# Executáveis
+*.exe
+*.out
+
+
+# Arquivos de IDE e Sistema
+.vscode/
+.DS_Store
+
+# Pastas de build geradas pelo Makefile
+obj/
+bin/
