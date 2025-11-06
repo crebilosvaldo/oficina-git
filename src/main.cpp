@@ -8,14 +8,14 @@ int main() {
        > ^ <
     )";
     
-    string meuNome = "Foobar";
-    string meuTitulo = "Foobar Developer";
-    string meuContato = "github.com/foobar";
+    string meuNome = "Robson Rosbife";
+    string meuTitulo = "Chefe de Pastelaria";
+    string meuContato = "github.com/rosbife";
+    string meuHobby = "Cozinhar Pastel";
 
-    string minhaCor = Color::Green;
+    string minhaCor = Color::Red;
 
-    
-    ProfileGreeter Greeter(meuNome, meuTitulo, meuContato, minhaArte, minhaCor);
+    ProfileGreeter Greeter(meuNome, meuTitulo, meuContato, minhaArte, minhaCor, meuHobby);
     
     Greeter.clear();
     Greeter.print();

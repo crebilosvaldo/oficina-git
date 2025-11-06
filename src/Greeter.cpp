@@ -14,8 +14,9 @@ ProfileGreeter::ProfileGreeter(
     const string& title,
     const string& contact,
     const string& art,
-    const string& color)
-    : profileName(name), title(title), contactInfo(contact), asciiArt(art), artColor(color) {
+    const string& color,
+    const string& hobby)
+    : profileName(name), title(title), contactInfo(contact), asciiArt(art), artColor(color), hobby(hobby) {
 }
 
 void ProfileGreeter::print() {
@@ -25,6 +26,7 @@ void ProfileGreeter::print() {
     
     cout << Color::Bold << Color::Yellow << "  " << profileName << Color::Reset << endl;
     cout << Color::Cyan << "  " << title << Color::Reset << endl;
+    cout << Color::Green << "  " << hobby << Color::Reset << endl;
     cout << "  " << contactInfo << endl;
 
     cout << Color::Blue << "==========================================================" << Color::Reset << endl;

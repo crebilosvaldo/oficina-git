@@ -22,6 +22,7 @@ private:
     string contactInfo;
     string asciiArt;
     string artColor;
+    string hobby;
 
 public:
     ProfileGreeter(
@@ -29,7 +30,8 @@ public:
         const string& title,
         const string& contact,
         const string& art,
-        const string& color = Color::Yellow
+        const string& color = Color::Yellow,
+        const string& hobby = "Sem Hobby"
     );
 
     void print();
