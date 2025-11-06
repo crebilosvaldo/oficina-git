@@ -8,10 +8,10 @@ int main() {
        > ^ <
     )";
     
-    string meuNome = "Robson Rosbife";
-    string meuTitulo = "Chefe de Pastelaria";
-    string meuContato = "github.com/rosbife";
-    string meuHobby = "Cozinhar Pastel";
+    string meuNome = "Crebilosvaldo";
+    string meuTitulo = "Redditor";
+    string meuContato = "github.com/crebilosvaldo";
+    string meuHobby = "Moderar Discord";
 
     string minhaCor = Color::Yellow;
 
